@@ -1,0 +1,40 @@
+.makeItGray {
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: -webkit-filter 1.5s;
+    filter: grayscale(100%);
+    transition: filter 1.5s;
+}
+
+.makeItNormal {
+    -webkit-filter: none;
+    -webkit-transition: -webkit-filter 1.5s;
+    filter: none;
+    transition: filter 1.5s;
+}
+
+.makeItDisappear {
+    -webkit-filter: opacity(0);
+    -webkit-transition: -webkit-filter 1.5s;
+    filter: opacity(0);
+    transition-duration: 1.5s;
+    transition-property: filter -webkit-filter;
+}
+
+.limgDeco {
+    display:none;
+    visibility: hidden;
+}
+
+.afterlimgDeco {
+    display:-ms-inline-flexbox;
+    visibility: visible;
+    
+}
+
+.cursor {
+    width: 20em;
+    height: 20em;
+    position: absolute;
+
+    
+}
